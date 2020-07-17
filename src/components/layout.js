@@ -1,19 +1,10 @@
 import React from "react"
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
-
-
-const ListLink = props => (
-    <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-        <Link to={props.to}>{props.children}</Link>
-    </li>
-);    
-
-    
 export default function Layout({ children }) {
 
-    const data = useStaticQuery(
-        graphql`
+  const data = useStaticQuery(
+    graphql`
           query {
             site {
               siteMetadata {
@@ -22,24 +13,40 @@ export default function Layout({ children }) {
             }
           }
         `
-      );
+  );
 
-    return (
+  return (
+    <div>
+      <div>
+        <nav class="navbar is-transparent">
+          <div class="navbar-brand" role="navigation" aria-label="main navigation">
+            <a href="/" style={{ textDecoration: 'none' }}>
+              <h1>{data.site.siteMetadata.title}</h1>
+            </a>
 
-        <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-            <header style={{ marginBottom: `1.5rem` }}>
-                <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-    <h3 style={{ display: `inline` }}>{data.site.siteMetadata.title}</h3>
-                </Link>
-                <ul style={{ listStyle: `none`, float: `right` }}>
-                    <ListLink to="/">Home</ListLink>
-                    <ListLink to="/about/">About</ListLink>
-                    <ListLink to="/contact/">Contact</ListLink>
-                </ul>
-            </header>
-            {children}
-        </div>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
 
+          </div>
 
-    )
+          <div id="navbarBasicExample"  class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="/" style={{ textDecoration: 'none' }}>Home</a>
+              <a class="navbar-item" href="/about/" style={{ textDecoration: 'none' }}>About</a>
+              <a class="navbar-item" href="/contact/" style={{ textDecoration: 'none' }}>Contact</a>
+            </div>
+          </div>
+        </nav>
+        {children}
+      </div>
+      <footer class="footer">
+        <div class="content has-text-centered">
+          Indhu Chinnathambi
+    </div>
+      </footer>
+    </div >
+  )
 }

@@ -29,6 +29,8 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {

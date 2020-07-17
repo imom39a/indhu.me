@@ -1,28 +1,37 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import "../styles/styles.scss"
+
 
 export default function Home({ data }) {
 
   return (
     <Layout>
-      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+      <div class="is-size-1 is-size-4-mobile">{data.allMarkdownRemark.totalCount} Posts</div>
+      <div class="columns is-desktop">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div class="column" key={node.id}>
+            <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
+              <div class="card">
+                <div class="card-content">
+                  <div>
+                    <h3><span>{node.frontmatter.title}</span></h3>
+                    <h6>{node.frontmatter.date}</h6>
+                  </div>
+                  <div>
+                    <div>
+                      <p>{node.excerpt}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+        ))}
+      </div>
 
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Link to={node.fields.slug}>
-            <h4>
-              {node.frontmatter.title}{" "}
-              <span>
-                — {node.frontmatter.date}
-              </span>
-            </h4>
-            <p>{node.excerpt}</p>
-          </Link>
-        </div>
-      ))}
-
-    </Layout>
+    </Layout >
   )
 }
 

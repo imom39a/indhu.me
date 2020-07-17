@@ -26,6 +26,8 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          `gatsby-plugin-sharp`,
+          `gatsby-transformer-sharp`,
         ],
       },
     },

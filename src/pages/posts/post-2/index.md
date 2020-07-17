@@ -1,6 +1,7 @@
 ---
 title: "Sweet Pandas Eating Sweets 2"
 date: "2018-08-10"
+featuredImage: './featured-image.jpg'
 ---
 
 Pandas are really sweet.

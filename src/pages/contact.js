@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 export default function Contact() {
     return (    
         <Layout>
-            <Header headerText="Contact" />
+            <Header headerText="Connect" />
             <Link to="/">Home</Link>
             <p>Send us a message!</p>
         </Layout>    

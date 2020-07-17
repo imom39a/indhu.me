@@ -1,11 +1,8 @@
 ---
 title: "A Guide to Node.js Logging"
 date: "2017-08-10"
+featuredImage: './featured-image.jpg'
 ---
-
-
-<img src="./image-1.jpg"/>
-
 
 While you start growing in JavaScript one of the first things you will likely learn is a way to log things to the console using console.log. in case you seek on the way to debug JavaScript, you’ll locate loads of blog posts and StackOverflow articles pointing you to “really” console.log it. And as it’s the sort of not unusual exercise we even started having linter guidelines like no-console to ensure we don’t depart unintended log statements in our manufacturing code. but what if we surely need to log something intentionally to offer more facts?
 

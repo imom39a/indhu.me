@@ -1,6 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Img from "gatsby-image"
 import "../styles/styles.scss"
 
 
@@ -8,48 +9,31 @@ export default function Home({ data }) {
 
   return (
     <Layout>
-      <div class="is-size-1 is-size-4-mobile">{data.allMarkdownRemark.totalCount} Posts</div>
-      <div class="columns is-desktop">
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div class="column" key={node.id}>
-            <Link style={{ textDecoration: 'none' }} to={node.fields.slug}>
-              <div class="card">
-                <div class="card-content">
-                  <div>
-                    <h3><span>{node.frontmatter.title}</span></h3>
-                    <h6>{node.frontmatter.date}</h6>
-                  </div>
-                  <div>
-                    <div>
-                      <p>{node.excerpt}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-        ))}
-      </div>
 
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <h1>Indhu Chinnathambi</h1>
+            <h3>Learning And Development Specialist, Freelancer, self-employed</h3>
+          </div>
+        </div>
+        {/* <div class="column is-3 is-narrow">
+          <div class="box">
+            <Img fluid={data.fileName.childImageSharp.fluid} alt="" />
+          </div>
+        </div> */}
+
+      </div>
     </Layout >
   )
 }
 
 export const query = graphql`
   query {
-    allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
-          fields {
-            slug
-          }
-          excerpt
+    fileName: file(relativePath: { eq: "images/indhu.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }

@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Inside Out`,
+    siteUrl: `localhost:8000`,
+    description: `My fancy site description`,
+    author: `Indhu Chinnathambi`,
   },
   plugins: [
     {
@@ -35,6 +38,7 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-s3`,
       options: {

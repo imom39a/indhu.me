@@ -16,18 +16,30 @@ export default function Header() {
     );
 
     return (
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand" role="navigation" aria-label="main navigation">
-                <a class="navbar-item" href="/">
-                    <h1>{data.site.siteMetadata.title}</h1>
-                </a>
-            </div>
-            <div id="nav-menu" class="navbar-menu is-active">
-                <div class="navbar-end">
-                    <a class="navbar-item" href="/blog" >Blog</a>
-                    <a class="navbar-item" href="/contact/" >Connect</a>
+        <div class="header-wrapper">
+            <section class="hero is-large">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                    <h2 class="title">{data.site.siteMetadata.title}</h2>
+                    </div>
                 </div>
-            </div>
-        </nav>
+                <div class="hero-foot">
+                    <div class="hero-foot--wrapper">
+                        <div class="columns">
+                            <div class="column is-12 hero-menu-desktop has-text-centered">
+                                <ul>
+                                    <li>
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="/blog">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     )
 }

@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-export default function Author() {
+export default function Author(props) {
 
     const data = useStaticQuery(
         graphql`
@@ -36,12 +36,10 @@ export default function Author() {
                         </div>
                         <div class="media-content">
                             <p class="title is-4">{data.site.siteMetadata.author}</p>
-                        <p class="subtitle is-6">@indhuchinnathambi</p>
+                            <p class="subtitle is-6">{props.postDate} . {props.timeToRead} min read</p>
                     </div>
                     </div>                    
                 </div>
-            </div>
-            <div class="card">
             </div>
         </div>
     )

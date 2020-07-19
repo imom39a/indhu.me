@@ -7,7 +7,6 @@ import "../styles/styles.scss"
 export default function Blog({ data }) {
     return (
         <Layout>
-            <div class="is-size-1 is-size-4-mobile">{data.allMarkdownRemark.totalCount} Posts</div>
             <div class="rows">
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div class="column" key={node.id}>
@@ -21,7 +20,7 @@ export default function Blog({ data }) {
                                 <div class="card-content">
                                     <div>
                                         <h3><span>{node.frontmatter.title}</span></h3>
-                                        <h6>{node.frontmatter.date}</h6>
+                                        <h6>{node.frontmatter.date} . {node.timeToRead} min read</h6>
                                     </div>
                                     <div>
                                         <div>
@@ -34,8 +33,6 @@ export default function Blog({ data }) {
                     </div>
                 ))}
             </div>
-
-
         </Layout >
     )
 }
@@ -62,6 +59,7 @@ export const query = graphql`
             slug
           }
           excerpt
+          timeToRead
         }
       }
     }

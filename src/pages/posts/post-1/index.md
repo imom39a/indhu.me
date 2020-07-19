@@ -8,7 +8,9 @@ While you start growing in JavaScript one of the first things you will likely le
 
 # When Do You want to Log?
 
+
 <img src="./image-2.jpg">
+
 
 Now that we have discovered a bit approximately the underlying tech factor of logging, let’s talk a bit approximately extraordinary use instances in which you would possibly need to log something. commonly those use instances fall into one of the following classes:
 - brief debugging of surprising behavior for the duration of development

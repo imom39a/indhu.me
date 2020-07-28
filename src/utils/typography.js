@@ -1,7 +1,7 @@
 import Typography from "typography"
-import fairyGateTheme from "typography-theme-moraga"
+import theme from "typography-theme-wordpress-2013"
 
-const typography = new Typography(fairyGateTheme)
+const typography = new Typography(theme)
 
 export const { scale, rhythm, options } = typography
 export default typography

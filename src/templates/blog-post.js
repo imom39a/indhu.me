@@ -34,12 +34,12 @@ export default function BlogPost({ data }) {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <div class="box"> 
+      <div class="box">
         <h1>{post.frontmatter.title}</h1>
         <div >
-        <Author postDate={post.frontmatter.date} timeToRead={post.timeToRead} />
+          <Author postDate={post.frontmatter.date} timeToRead={post.timeToRead} />
         </div>
-        <Img css= {imagePadding} fluid={featuredImgFluid} />
+        <Img css={imagePadding} fluid={featuredImgFluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ShareBlockStandard {...shareBlockProps} />
       </div>

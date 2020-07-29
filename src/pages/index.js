@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import "../styles/styles.scss"
 
-import { FaFacebook, FaYoutube, FaLinkedinIn } from "react-icons/fa/index"
-
 export default function Home({ data }) {
 
   return (

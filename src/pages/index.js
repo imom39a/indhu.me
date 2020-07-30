@@ -19,15 +19,12 @@ export default function Home({ data }) {
             </div>
             <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
               <p>
-                I’m Indhu Chinnathambi living in Atlanta.
-              </p>
-              <p>
-                I was born and brought up in a metropolitan city named Chennai, Tamil Nadu – a state in India. With that said yes, I’m a Tamizhian, Indian who loves my place, culture, tradition and PEOPLE.
-                </p>
-              <h3>  ‘All the world is a laboratory to the inquiring mind.’ –Martin Fisher </h3>
+                I’m Indhu Chinnathambi living in Atlanta. I was born and brought up in a metropolitan city named Chennai, Tamil Nadu – a state in India. With that said yes, I’m a Tamizhian, Indian who loves my place, culture, tradition and PEOPLE.
+              </p>              
               <p>
                 Of course, PEOPLE. That was the key driving force for deciding my passionate career. Back in 2011, I decide to be a soft skill trainer and I made it. Today I am a learning & development specialist with 7 years of experience as a facilitator, E-Learning module developer, public speaker.
               </p>
+              <blockquote>  ‘All the world is a laboratory to the inquiring mind.’ –Martin Fisher </blockquote>
               <p>
                 Believing this quote, I continued learning. I hold a Bachelor’s in Commerce, Master’s in Business Administration and a Master’s in Commerce. I am certified NLP Practitioner, Certified Learning & Development Professional, Certified Human Resource Management Professional, I also hold a Diploma from Indian Society of Training and Development. I am a member of MacToast Toastmasters club, Atlanta and a member of JCI.
                 </p>

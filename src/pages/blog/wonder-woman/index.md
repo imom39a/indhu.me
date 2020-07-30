@@ -1,37 +1,20 @@
 ---
-title: "The quest for other’s default"
-date: "2020-07-29"
+title: "Wonder woman"
+date: "2020-07-24"
 featuredImage: './featured-image.jpg'
 ---
 
-There lived a couple. Suddenly, the husband started to fear if his wife wasn’t hearing as well as she used to, and he thought she might need a hearing aid. Not quite sure how to approach her, He approached his friend who is a doctor and he came up with a simple solution. It’s a simple test that the husband himself can perform and it will also give a better idea about her hearing loss. 
+> "Believe in yourself, the world will believe in you"
 
-“Here’s what you do,” said the doctor, “stand about 40 feet away from her, and in a normal conversational speaking tone see if she hears you. If not, go to 30 feet, then 20 feet, and so on until you get a response.”
+Said that I'm here to share few of my attributes, that better describes me.
 
-That evening, the wife is in the kitchen cooking dinner, and he was in the den. He said to himself, “I’m about 40 feet away, let’s see what happens.” Then in a normal tone he asked, “Honey, what’s for dinner?” No response.
+The first character I'm going to talk about is about my punctuality. I would love to be punctual in anything I involve. I developed this character seeing my father. It creates a sense of responsibility towards my commitment. It helps me to think and come out with brilliant ideas. I could also stretch to help people in need preferably in people management. Every Monday, I make sure I'm 15 mins early, having some cute chat with Ms. Eloise, distributing the agenda, I love that. I hope she does too.
 
-So, the husband moved closer to the kitchen, about 30 feet from his wife and repeats, “Honey, what’s for dinner?” Still no response.
+The second character, I would also say my strength, that is my sense of humor and thought of engaging people. This character helps me to create closeness, bond and eventually churning to trust. Luckily my personality became the nature of the career I chose.
 
-Next, he moves into the dining room where he was about 20 feet from his wife and asked, “Honey, what’s for dinner?” Again, he gets no response.
+Back in India, I was working with an MNC in L&D department. Out of 400 employees I nearly knew and was close with 380 people. I was handling induction session which helped me to get to know people much better. People started coming to discuss both personal and professional problems based on the confidence they had on me, on the bond we carried. I'm proud that I earned scads of lifelong friendship, the most valuable assert one can hold.
 
-So, he walked up to the kitchen door, about 10 feet away. “Honey, what’s for dinner?” Again, there is no response.
+The third character, the most important value, the value I admire the most is Integrity. I give a word and I die to stick to it. ‘Walk the talk’ is how I live. I have faced several tough times fighting for integrity. But the moment I win, the sense of doing right makes me feel proud.
 
-So, he walked right up behind her. “Honey, what’s for dinner?” 
-
-“Ralph, for the fifth time I’ve said, chicken!”
-
-Once I read this story, I had this thought. We spend most of our precious time in finding others default, inadequacy, lack of something and want it to be changed, rather than accepting it as it is as a scarcity.
-
-Most of the time, the problem may not be with the other person as we always think. It could be very much within us. We sometimes tend to look to heal in other’s problems or issues than focusing on us. This realization is hard and it takes time, believe me. 
-
-Before marriage I was a completely different person. I was hard when it comes to rules and principle, had my own way of living and I thought that’s the perfect way to live. 
-
-But after marriage the second phase of life, I slowly started realizing defaults and change is not something expected just from one side, its from both the sides and should happen together to create a health life. And this realization is not something forced by someone may be by nature. I still enjoy it. I have also started feeling lite and peaceful because when you start accepting things as it is, there’s nothing left for you to think, worry or keep whining around. 
-
-When I was a kid, I hated people who were fat, plump, and chubby for no reason. But my husband has stout physic, we were in relationship for two years and then got married. So focusing on other good qualities of him made me accept him as he is. Focus on positive things around which will help you to develop acceptance.
-
-I would like to conclude by quoting
-
->Change things to change
->Accept things you can’t
->Wisdom to know the difference.
+Last but not the least, Love. There is some supreme power in this world beyond mankind is Love. Love is God. I believe so. Love and respect every single creature on earth. Saying this I am not a saint with a pure soul. But I know to love my fellow being, showing some compassion, and helping people in need whenever I can.
+With a bag of mixed characters, I am definitely a wonder woman loving you all.

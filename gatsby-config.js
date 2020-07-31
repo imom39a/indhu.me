@@ -1,22 +1,28 @@
+require("dotenv").config({
+  path: `.env.production`,
+})
+
+
 module.exports = {
   siteMetadata: {
     title: `Inside Out`,
     siteUrl: `https://indhu.me`,
     description: `My fancy site description`,
     author: `Indhu Chinnathambi`,
+    fbAppId: process.env.FB_APP_ID
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {      
-          trackingId: "UA-173946921-1",
+          trackingId: process.env.GA_TRACKING_ID,
           head: true
       },
     },
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-0416077673355811`
+        publisherId: process.env.ADSENS_ID
       },
     },
     {

@@ -39,6 +39,7 @@
     "react": "^16.12.0",
     "react-custom-share": "^0.4.8",
     "react-dom": "^16.12.0",
+    "react-facebook": "^8.1.4",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.10.0",
     "react-typography": "^0.16.19",

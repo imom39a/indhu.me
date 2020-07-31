@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import SEO from "../components/seo"
 import Author from "../components/author"
 import { css } from "@emotion/core"
+import { FacebookProvider, Comments } from 'react-facebook';
 
 
 import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa/index";
@@ -42,6 +43,9 @@ export default function BlogPost({ data }) {
         <Img css={imagePadding} fluid={featuredImgFluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ShareBlockStandard {...shareBlockProps} />
+        <FacebookProvider appId={`${process.env.FB_APP_ID}`}>
+          <Comments href={shareBlockProps.url} width='100%'/>
+        </FacebookProvider>
       </div>
     </Layout>
   )

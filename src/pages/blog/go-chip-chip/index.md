@@ -1,6 +1,6 @@
 ---
 title: "Go Chip Chip Chip"
-date: "2020-07-27"
+date: "2020-07-22"
 featuredImage: './featured-image.jpg'
 ---
 

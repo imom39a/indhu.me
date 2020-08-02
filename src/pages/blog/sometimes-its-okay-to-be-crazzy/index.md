@@ -1,6 +1,6 @@
 ---
 title: "Sometimes it's okay to be crazy"
-date: "2020-07-23"
+date: "2020-07-09"
 featuredImage: './featured-image.jpg'
 ---
 

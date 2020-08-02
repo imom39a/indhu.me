@@ -30,7 +30,7 @@ export default function Author(props) {
                 <div class="card-content">
                     <div class="media">
                         <div class="media-left">
-                            <figure class="image is-48x48">
+                            <figure class="image is-96x96">
                                 <Img fluid={data.fileName.childImageSharp.fluid} />
                             </figure>
                         </div>

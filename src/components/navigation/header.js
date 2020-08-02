@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
         <div class="header-wrapper">
-            <section class="hero is-large">
+            <section class="hero is-medium">
                 <div class="hero-body">
                     <div class="container has-text-centered">
                     <h2 class="title">{data.site.siteMetadata.title}</h2>
@@ -33,6 +33,9 @@ export default function Header() {
                                     </li>
                                     <li>
                                         <a href="/blog">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="/profile">Profile</a>
                                     </li>
                                 </ul>
                             </div>

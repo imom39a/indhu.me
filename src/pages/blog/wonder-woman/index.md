@@ -1,6 +1,6 @@
 ---
 title: "Wonder woman"
-date: "2020-07-24"
+date: "2020-07-12"
 featuredImage: './featured-image.jpg'
 ---
 

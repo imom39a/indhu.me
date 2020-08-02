@@ -1,6 +1,6 @@
 ---
 title: "The light house"
-date: "2020-07-26"
+date: "2020-07-20"
 featuredImage: './featured-image.jpg'
 ---
 

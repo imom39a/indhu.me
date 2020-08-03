@@ -19,10 +19,14 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 		url = request.QueryStringParameters["url"]
 		count, _ = updateCount(url)
 	}
+	headers := map[string]string{
+		"Access-Control-Allow-Origin": "*",
+	}
 
 	return events.APIGatewayProxyResponse{
 		Body:       fmt.Sprintf("%d", count),
 		StatusCode: 200,
+		Headers:    headers,
 	}, nil
 }
 

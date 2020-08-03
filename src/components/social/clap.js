@@ -49,13 +49,11 @@ export default class ClapSocialButton extends Component {
             axios.put(`${API}` + (this.props.url ? `?url=${this.props.url}` : "")).then(
                 (response) => {
                     this.setState({ data: parseInt(response.data) });
-                    console.log(count, countTotal)
                 });
         };
 
         return (
             <div>
-                <div css={SocialReactions}>Hit 'Like'</div>
                 <div css={SocialReactions}>
                     <ClapButton
                         count={0}
@@ -67,6 +65,7 @@ export default class ClapSocialButton extends Component {
                     />
                 </div >
                 <div css={SocialReactions}>{this.state.data} likes</div>
+                <div css={SocialReactions}>Hit 'Like'</div>
             </div>
         );
     }

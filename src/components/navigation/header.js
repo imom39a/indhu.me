@@ -32,7 +32,7 @@ export default function Header() {
                                         <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="/blog">Blog</a>
+                                        <a href="/blog">Blogs</a>
                                     </li>
                                     <li>
                                         <a href="/profile">Profile</a>

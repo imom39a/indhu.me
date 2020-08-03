@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
+import ClapSocialButton from "../components/social/clap"
 import Author from "../components/author"
 import { css } from "@emotion/core"
 import { FacebookProvider, Comments } from 'react-facebook';
@@ -38,14 +39,21 @@ export default function BlogPost({ data }) {
       <div class="box">
         <h1>{post.frontmatter.title}</h1>
         <div >
-          <Author postDate={post.frontmatter.date} timeToRead={post.timeToRead} />
+          <Author postDate={post.frontmatter.date} timeToRead={post.timeToRead} url={shareBlockProps.url} />
         </div>
         <Img css={imagePadding} fluid={featuredImgFluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <ShareBlockStandard {...shareBlockProps} />
-        <FacebookProvider appId={`${process.env.FB_APP_ID}`}>
-          <Comments href={shareBlockProps.url} width='100%'/>
-        </FacebookProvider>
+        <hr />
+        <div>
+          <ClapSocialButton url={shareBlockProps.url} />          
+          <br />
+          <ShareBlockStandard {...shareBlockProps} />
+          <hr />
+          <FacebookProvider appId='3431490390217878'>
+            <Comments href={shareBlockProps.url} width='100%' />
+          </FacebookProvider>
+        </div>
+        
       </div>
     </Layout>
   )

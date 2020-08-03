@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import Reactions from "../components/social/reactions"
 
 
 export default function Author(props) {
@@ -35,8 +36,8 @@ export default function Author(props) {
                             </figure>
                         </div>
                         <div class="media-content">
-                            <p class="title is-4">{data.site.siteMetadata.author}</p>
-                            <p class="subtitle is-6">{props.postDate} . {props.timeToRead} min read</p>
+                            <p class="title is-6">{data.site.siteMetadata.author}</p>
+                            <p class="subtitle is-7">{props.postDate} <div>{props.timeToRead} min read </div> {<Reactions url={props.url} />}</p>
                     </div>
                     </div>                    
                 </div>

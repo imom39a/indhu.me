@@ -217,14 +217,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingId: `UA-173946921-1`,
         head: true
       },
     },
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: process.env.ADSENS_ID
+        publisherId: `ca-pub-0416077673355811`
       },
     },
     {

@@ -80,7 +80,7 @@ export default function Profile({ data }) {
                             <div class="columns is-multiline">
                                 {item.images ? item.images.map(({ item }, i) => (
                                     <div class="column is-one-quarter">
-                                        {i == 0 ? <span>Tools Used</span> : <span>&nbsp;</span>}
+                                        {i === 0 ? <span>Tools Used</span> : <span>&nbsp;</span>}
                                         <a href={item.link} target="_blank">
                                             <img src={item.data} title={item.text} />
                                         </a>

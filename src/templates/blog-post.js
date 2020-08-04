@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
@@ -8,12 +8,14 @@ import Author from "../components/author"
 import { css } from "@emotion/core"
 import { FacebookProvider, Comments } from 'react-facebook';
 
-
 import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa/index";
+import { FcNext, FcPrevious } from "react-icons/fc/index";
 import { ShareBlockStandard, ShareButtonRectangle } from "react-custom-share";
 
 
-export default function BlogPost({ data }) {
+export default function BlogPost({ data, pageContext }) {
+  console.log(pageContext);
+  const { next, prev } = pageContext
   const post = data.markdownRemark
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
@@ -45,7 +47,11 @@ export default function BlogPost({ data }) {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
         <div>
-          <ClapSocialButton url={shareBlockProps.url} />          
+          <ClapSocialButton url={shareBlockProps.url} />
+          <div class='next-prev-links-bar'>
+            {prev && <Link to={prev.fields.slug}> <FcPrevious /> Previous post</Link>}
+            {next && <Link to={next.fields.slug}> Next post<FcNext /></Link>}
+          </div>
           <br />
           <ShareBlockStandard {...shareBlockProps} />
           <hr />
@@ -53,7 +59,7 @@ export default function BlogPost({ data }) {
             <Comments href={shareBlockProps.url} width='100%' />
           </FacebookProvider>
         </div>
-        
+
       </div>
     </Layout>
   )
@@ -61,14 +67,14 @@ export default function BlogPost({ data }) {
 
 export const query = graphql`
   query($slug: String!) {
-    site {
-      siteMetadata {
-        title,
-        author,
-        siteUrl
-      }
+        site {
+          siteMetadata {
+          title,
+          author,
+          siteUrl
+        }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug } }) {
       html
       excerpt
       timeToRead
@@ -76,12 +82,12 @@ export const query = graphql`
         slug
       }
       frontmatter {
-        title
-        date(formatString: "DD MMMM, YYYY")
-        featuredImage {
-          childImageSharp {
+          title
+          date(formatString: "DD MMMM, YYYY")
+          featuredImage {
+            childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid
             }
           }
         }

@@ -62,10 +62,10 @@ export default class ClapSocialButton extends Component {
                         isClicked={false}
                         onCountChange={updateClaps}
                         iconComponent={props => <CustomIcon {...props} size={38} />}
-                    />
+                    />                    
                 </div >
                 <div css={SocialReactions}>{this.state.data} likes</div>
-                <div css={SocialReactions}>Hit 'Like'</div>
+                <div css={SocialReactions}>Hit 'Like'</div>   
             </div>
         );
     }

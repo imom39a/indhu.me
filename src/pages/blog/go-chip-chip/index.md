@@ -2,6 +2,7 @@
 title: "Go Chip Chip Chip"
 date: "2020-07-22"
 featuredImage: './featured-image.jpg'
+tags: ["Protege", "Mentor", "Inspiration", "Motivation"]
 ---
 
 On March 8, 2016 is the first time I saw her. A vibrant looking woman with a pleasant smile wearing red saree. She was amazing. As I was admiring her, she walked towards me and called me to the interview room. That is when I realized, she is the manager who is supposed to interview me. Her name is Mrs. Elsan John.

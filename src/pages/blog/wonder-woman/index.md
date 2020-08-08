@@ -2,6 +2,7 @@
 title: "Wonder woman"
 date: "2020-07-12"
 featuredImage: './featured-image.jpg'
+tags: ["Values", "Motivation"]
 ---
 
 > "Believe in yourself, the world will believe in you"

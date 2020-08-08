@@ -2,6 +2,7 @@
 title: "Best memory ever"
 date: "2020-07-16"
 featuredImage: './featured-image.jpg'
+tags: ["Friends", "Regrets", "Funny story"]
 ---
 
 > "Life brings three things; tears smile and for sure memories"

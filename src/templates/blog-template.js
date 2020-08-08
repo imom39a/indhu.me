@@ -7,6 +7,8 @@ import ClapSocialButton from "../components/social/clap"
 import Author from "../components/author"
 import { css } from "@emotion/core"
 import { FacebookProvider, Comments } from 'react-facebook';
+import kebabCase from "lodash/kebabCase"
+
 
 import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa/index";
 import { FcNext, FcPrevious } from "react-icons/fc/index";
@@ -45,6 +47,11 @@ export default function BlogPost({ data, pageContext }) {
         </div>
         <Img css={imagePadding} fluid={featuredImgFluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div class='categories-links-bar'>
+          {post.frontmatter.tags && post.frontmatter.tags.map(t => (
+            <Link to={`/tags/${kebabCase(t)}/`}><span class="tag is-black item">#{t}</span></Link>
+          ))}
+        </div>
         <hr />
         <div>
           <ClapSocialButton url={shareBlockProps.url} />
@@ -83,6 +90,7 @@ export const query = graphql`
       }
       frontmatter {
           title
+          tags
           date(formatString: "DD MMMM, YYYY")
           featuredImage {
             childImageSharp {

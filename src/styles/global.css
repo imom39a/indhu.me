@@ -361,11 +361,15 @@ body {
   font-size: small;
 }
 
-.next-prev-links-bar .left{
-
+.categories-links-bar{
+  display: block;  
 }
 
-.next-prev-links-bar .right{
+.categories-links-bar .item { 
+  margin: 10px;
+}
 
+.categories-links-bar a { 
+  text-decoration: none;
 }
   

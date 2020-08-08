@@ -2,6 +2,7 @@
 title: "The light house"
 date: "2020-07-20"
 featuredImage: './featured-image.jpg'
+tags: ["Protege", "Mentor", "Inspiration", "Motivation"]
 ---
 
 Once you find your lighthouse, the rest of the travel can be considered smooth. Choice of career was not that easy at my teenage. I had several advices, opportunities, area of interest and passion as well. I sign and dance. Also, I am good at my acting skills. Now which one to choose.

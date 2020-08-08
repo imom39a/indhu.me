@@ -2,6 +2,7 @@
 title: "Self talk"
 date: "2020-07-25"
 featuredImage: './featured-image.jpg'
+tags: ["Emotional intelligence", "Life experience", "Funny story"]
 ---
 
 I came across a story and I thought its worth sharing. 

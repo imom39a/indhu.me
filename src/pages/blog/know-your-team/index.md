@@ -2,6 +2,7 @@
 title: "Know your team"
 date: "2020-08-02"
 featuredImage: './featured-image.jpg'
+tags: ["Team management", "Interpersonal skills", "Communication", "Zohari window", "Informational", "Implementation"]
 ---
 
 Team building is a process of turning a group of individual employees into cohesive team. Team is a group of individuals with different styles and different personalities working together for a common goal or an objective.

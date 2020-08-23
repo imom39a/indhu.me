@@ -2,7 +2,7 @@
 title: "It’s okay is not okay"
 date: "2020-08-05"
 featuredImage: './featured-image.jpg'
-tags: ["Funny story", "Communication"]
+tags: ["Stories", "Communication"]
 ---
 
 **It’s okay;** what does it mean?

@@ -2,7 +2,7 @@
 title: "Sometimes it's okay to be crazy"
 date: "2020-07-09"
 featuredImage: './featured-image.jpg'
-tags: ["Positivity", "Life experience", "Motivation", "Funny story"]
+tags: ["Positivity", "Life experience", "Motivation", "Stories"]
 ---
 
 > "You’ve gotta dance like there's nobody watching;

@@ -2,7 +2,7 @@
 title: "The quest for people’s default"
 date: "2020-07-29"
 featuredImage: './featured-image.jpg'
-tags: ["Funny story", "Acceptance", "Happiness"]
+tags: ["Stories", "Acceptance", "Happiness"]
 ---
 
 There lived a couple. Suddenly, the husband started to fear if his wife wasn’t hearing as well as she used to, and he thought she might need a hearing aid, Not quite sure how to approach her.

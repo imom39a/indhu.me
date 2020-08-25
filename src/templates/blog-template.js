@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import ClapSocialButton from "../components/social/clap"
 import Author from "../components/author"
 import { css } from "@emotion/core"
-import { FacebookProvider, Comments } from 'react-facebook';
+import { DiscussionEmbed } from "disqus-react"
 import kebabCase from "lodash/kebabCase"
 import { Helmet } from "react-helmet"
 
@@ -32,6 +32,15 @@ export default function BlogPost({ data, pageContext }) {
     text: post.frontmatter.title,
   };
 
+  const disqusConfig = {
+    shortname: "indhu-me",
+    config: {
+      url: data.site.siteMetadata.siteUrl + post.fields.slug,
+      identifier: post.fields.slug,
+      title: post.frontmatter.title
+    }
+  }
+
   const imagePadding = css`img{
     padding: 10px;
   }  
@@ -39,12 +48,6 @@ export default function BlogPost({ data, pageContext }) {
 
   return (
     <Layout>
-        <Helmet>
-          <meta property="fb:app_id" content="3431490390217878" />
-          <meta property="fb:admins" content="100000562344757"/>
-          <meta property="fb:admins" content="100002587266349"/>
-        </Helmet>
-
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <div class="box">
         <h1>{post.frontmatter.title}</h1>
@@ -68,9 +71,7 @@ export default function BlogPost({ data, pageContext }) {
           <br />
           <ShareBlockStandard {...shareBlockProps} />
           <hr />
-          <FacebookProvider appId='3431490390217878'>
-            <Comments href={shareBlockProps.url} width='100%' />
-          </FacebookProvider>
+          <DiscussionEmbed {...disqusConfig} />
         </div>
 
       </div>

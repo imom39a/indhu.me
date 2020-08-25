@@ -8,7 +8,7 @@ import Author from "../components/author"
 import { css } from "@emotion/core"
 import { FacebookProvider, Comments } from 'react-facebook';
 import kebabCase from "lodash/kebabCase"
-
+import { Helmet } from "react-helmet"
 
 import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa/index";
 import { FcNext, FcPrevious } from "react-icons/fc/index";
@@ -39,6 +39,12 @@ export default function BlogPost({ data, pageContext }) {
 
   return (
     <Layout>
+        <Helmet>
+          <meta property="fb:app_id" content="3431490390217878" />
+          <meta property="fb:admins" content="100000562344757"/>
+          <meta property="fb:admins" content="100002587266349"/>
+        </Helmet>
+
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <div class="box">
         <h1>{post.frontmatter.title}</h1>

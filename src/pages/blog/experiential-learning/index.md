@@ -2,12 +2,12 @@
 title: "Experiential Learning"
 date: "2020-08-08"
 featuredImage: './featured-image.jpg'
-tags: ["Thought process", "Implementation", "Informational"]
+tags: ["Thought Process", "Implementation", "Informative"]
 ---
 
 >  #### “The best teachers are those who show you where to look, but don’t tell you what to see”
 
-The biggest challenge any teacher faces is capturing the students’ attention and putting across ideas in such a way that it stays with them long after they have left the classroom. For this to happen, learning experience should be redefined and made more innovative.
+The biggest challenge any teacher faces is capturing the students’ attention and putting across ideas in such a way that it stays with them long after they have left the classroom. For this to happen, the learning experience should be redefined and made more innovative.
 
 ### Experiential learning
 
@@ -17,9 +17,9 @@ The general concept of learning through experience is ancient. Around 350 BCE, A
 
 > #### “Experiential learning is personal and effective in nature, influencing both feelings and emotions as well as enhancing knowledge and skills.”
 
-Experiential learning engages learners in critical thinking, problem solving and decision making in contexts that are personally relevant to them. This approach to learning also involves making opportunities for debriefing and consolidation of ideas and skills through feedback, reflection, and the application of the ideas and skills to new situations. The crux of the learning occurs during the reflective process where learners assess their decisions in the light of natural consequences, mistakes, and successes.
+Experiential learning engages learners in critical thinking, problem-solving, and decision making in contexts that are personally relevant to them. This approach to learning also involves making opportunities for debriefing and consolidation of ideas and skills through feedback, reflection, and the application of the ideas and skills to new situations. The crux of the learning occurs during the reflective process where learners assess their decisions in the light of natural consequences, mistakes, and successes.
 
-The idea of experiential learning as a cycle was suggested by prominent educationalists such as Jean Piaget, John Dewey and David Kolb.
+The idea of experiential learning as a cycle was suggested by prominent educationalists such as Jean Piaget, John Dewey, and David Kolb.
 
 The experiential learning cycle involves four phases:
 
@@ -30,6 +30,6 @@ The experiential learning cycle involves four phases:
 - **Generalising:** Understanding the general principle (called a ‘generalisation’) behind the relationship between the action and its effects.
 - **Applying:** Applying the principle or generalisation to a new situation.
 
-Reflection is the key to learning from experience because it consciously focuses our attention on what we have learnt and thus consolidates it. Reflection is part of the debriefing process. Debriefing helps the learners process the information and make generalisations from their experiences and apply what they have learnt in new situations.
+Reflection is the key to learning from experience because it consciously focuses our attention on what we have learned and thus consolidates it. Reflection is part of the debriefing process. Debriefing helps the learners process the information and make generalizations from their experiences and apply what they have learned in new situations.
 
-The learning should be personally meaningful and have some significance to the learners. They will have opportunities to reflect on and discuss their learning experience throughout the process. The experience will involve the student's whole person, including the senses, personality, and emotion. The knowledge on the subject matter gained will be acknowledged for which experiential learning is important. 
+The learning should be personally meaningful and have some significance to the learners. They will have opportunities to reflect on and discuss their learning experience throughout the process. The experience will involve the student's whole person, including the senses, personality, and emotion. The knowledge on the subject matter gained will be acknowledged for which experiential learning is important.

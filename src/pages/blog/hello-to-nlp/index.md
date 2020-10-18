@@ -2,26 +2,27 @@
 title: "Hello to NLP (Neuro-Linguistic Programming)"
 date: "2020-08-17"
 featuredImage: './featured-image.jpg'
-tags: ["Informative", "Learning & Development", "Thought process", "Implementation", "NLP"]
+tags: ["Informative", "Learning & Development", "Thought Process", "Implementation", "NLP"]
 ---
 
-Today I would like to share few things about NLP, like what it is? How it works? The benefits. So just saying, “Hello to NLP”.
+Today I would like to share a few things about NLP, like what it is? How does it work? The benefits. So just saying, “Hello to NLP”.
 
-NLP - Neuro Linguistics Programming is an attitude, which can be used as a technique to derive a desired outcome or a behavior from a given human belief system.
+NLP is Neuro-Linguistics Programming language is an attitude, which can be used as a technique to derive the desired outcome or behavior from a given human belief system.
+
 
 - Neuro – Thoughts
 - Linguistics – Language
 - Program – the way you get the desired outcome behavior, communicating with thoughts.
 
-NLP was found by Richard Bandler and John Grinder at 1970, California.
+NLP was found by Richard Bandler and John Grinder in 1970, California.
 
 ### How NLP helps
 
-NLP as a technique can help you in whatever profession you are in., you’re a salesman or a coach or a leader, you can certainly become a better or even best if your already better.
+NLP as a technique can help you in whatever profession you are in., you’re a salesman or a coach or a leader, you can certainly become a better or even best if you are already better.
 
-Personally, I would endorse NLP to be a grooming session, because it gives you a completely different perspective of life. In simple words it helps you to view all the situations, in and around you, with all different perspectives with different dimensional aspects to it.
+I would endorse NLP to be a grooming session because it gives you a completely different perspective of life. In simple words, it helps you to view all the situations, in and around you, with all different perspectives with different dimensional aspects to it.
 
-The 'me' before undergoing NLP certification is a completely different person to what I am today. It makes you more self-aware, enhances your EQ – emotional quotient. The ability to know and control your emotions, therefore the action that follows.
+The ‘me’ before undergoing NLP certification is a completely different person to what I am today. It makes you more self-aware, enhances your EQ – emotional quotient. The ability to know and control your emotions, therefore the action that follows.
 
 ### How NLP works
 
@@ -29,16 +30,18 @@ It depends on the ICEBERG model.
 
 ![](./1.jpg)
 
-It’s between conscious and unconscious mind, between behavior and values, belief, together called belief system. Few are okay with smoking, few aren’t okay with it, for few it’s a great sin. So no of them are right are wrong. It all depends weather your actions are useful or not.
-How does one actions have different opinions? That’s based on our belief system. It can be built both externally with family, culture, tradition or internally with your own experience.
+It’s between the conscious and unconscious mind, between behavior and values, belief, together called the belief system. Few are okay with smoking, few aren’t okay with it, for few it’s a great sin. So no of them are right are wrong. It all depends on whether your actions are useful or not.
+
+How does one action have different opinions? That’s based on our belief system. It can be built both externally with family, culture, tradition, or internally with your own experience.
 
 ### Benefits of NLP
 
 ![](./2.jpg)
 
-- It helps to cure phobias, depression, anxiety and get rid of unwanted habits.
+- It helps to cure phobias, depression, anxiety, and get rid of unwanted habits.
 - It also helps you in effective communication and rapport building.
-- Hence, NLP helps you being positive and successful in life.
+- Hence, NLP helps you to be positive and successful in life.
+
 
 One technique that impressed me and used quite often by almost everyone is anchoring.
 

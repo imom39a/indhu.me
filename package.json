@@ -18,7 +18,7 @@
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@fortawesome/fontawesome-free": "^5.14.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.11.1",
     "bulma": "^0.9.0",
     "disqus-react": "^1.0.9",

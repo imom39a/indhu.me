@@ -2,7 +2,7 @@
 title: "Motivation"
 date: "2020-09-28"
 featuredImage: './featured-image.jpg'
-tags: ["Positivity", "Learning & Development", "Review", "Life experience", "Hapiness", "Motivation"]
+tags: ["Positivity", "Learning & Development", "Review", "Life experience", "Happiness", "Motivation", "Toastmasters","Communication", "Public Speaking"]
 ---
 
 > “All our dreams can come true if we have the courage to pursue them.”– Walt Disney

@@ -2,7 +2,7 @@
 title: "A throwback memory about my paradise"
 date: "2020-07-06"
 featuredImage: './featured-image.jpg'
-tags: ["List", "Review", "Places"]
+tags: ["List", "Review", "Places", "Life experience", "Happiness"]
 ---
 
 Chennai is the city where I was born and brought up. It’s a metropolitan city in the state named Tamil Nadu in India. I simply love my city and that’s when I learned about unconditional love. I have roamed almost all the streets, having an emotional bond.

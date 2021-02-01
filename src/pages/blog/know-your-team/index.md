@@ -42,8 +42,9 @@ The last area is the **Unknown Area**. As the name goes, this represents informa
 
 These are unknown information as I haven’t encountered an opportunity yet, to experience or disclose it.
 
-To build a trustful relationship the panes of the window must be moved to widen up the open area, by changing the size of the window. The aim is to grow open areas and shrink other areas to a necessary level.
+To build a trustful relationship the panes of the window must be moved to widen up the open area, by changing the size of the other area’s in the window. The aim is to grow open area and shrink other areas to a necessary level.
 
-To shrink the hidden area, you must disclose less information. Non-work-related information can be concealed. To shrink blind spots, you must get the practice of receiving and giving effective feedback. With disclosure and feedback, you will have new opportunities to encounter new information that shrinks the unknown area.
+To shrink the hidden area, you must disclose information about yourself. Non-work-related information can be concealed. To shrink blind spots, you must get the practice of receiving and giving effective feedback. With disclosure and feedback, you will have new opportunities to encounter new information that shrinks the unknown area.
 
 This way we can develop our interpersonal skills communication between team members, to evolve as a successful team. 
+ 

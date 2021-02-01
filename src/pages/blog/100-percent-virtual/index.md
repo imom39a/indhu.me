@@ -2,7 +2,7 @@
 title: "100% Virtual"
 date: "2020-09-14"
 featuredImage: './featured-image.jpg'
-tags: ["Informative", "Learning & Development", "Review"]
+tags: ["Informative", "Learning & Development", "Review","Virtual", "Implementation"]
 ---
 In today’s technological advancement, we can connect with people all around the world, more efficient and effective than what we could even imagine. I was able to attend two international club meetings, one at New York, The LACE club, and the other one with The Marine Parade in Singapore. Apart from toastmasters, Lots and lots of webinars all around the world, weekly zoom call with my friends, WhatsApp call with family.
 
@@ -29,7 +29,7 @@ There are lots of tools and game evolved to serve this purpose and strive hard t
 
 ![](./1.jpg)
 
-One such tool is the [Dextr](https://dextr.io/) developed by Mr. Abilash and Mr. Rakesh from Banglore, India.
+One such tool is the [Dextr](https://dextr.io/) developed by Mr. Abhilash and Mr. Rakshith from Bangalore, India.
 
 I attended one of their programs, an amazing experience indeed. The most impressive learning I had was the key that I am going to share with you today, which will help you to be smart with technology and manage online meetings, presentations, and webinars you do.
 

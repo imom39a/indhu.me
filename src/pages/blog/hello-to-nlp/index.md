@@ -61,6 +61,6 @@ This will help you in knowing your emotion, controlling it and channelizing it t
 
 > 'Fine-tuning our habits to a positive outcome, we may have a great behavioral change and a positive image of our self'.
 
-I am a NLP master practitioner and I did my certification with [Life academy, Chennai](https://www.lifeacademy.co.in/). My coach Mr. Ram sir was an extraordinary person with abundant skill and knowledge. A three level training program with people from different areas of expertise - it was an amazing experience. we had fun at learning.
+I am a NLP master practitioner and I did my certification with [Life academy, Chennai](https://www.lifeacademy.co.in/). My coach [Mr. Ram sir](https://ramsnlp.com/) was an extraordinary person with abundant skill and knowledge. A three level training program with people from different areas of expertise - it was an amazing experience. we had fun at learning.
 
 ![Feel free to contact Mr.Ram](./3.jpg)
